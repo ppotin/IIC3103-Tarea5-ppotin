@@ -1,0 +1,47 @@
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+</style>
+</head>
+
+<h1>Episodio <%= @id %></h1>
+
+<div class = "container">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Air date</th>
+                <th>Code</th>
+                <th>Characters</th>
+                <th colspan="4"></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><%= @episode.name %></td>
+                    <td><%= @episode.air_date %></td>
+                    <td><%= @episode.episode %></td>
+                    <td>
+                        <% @aux.each do |character| %>
+                            <%= link_to character.name, root_path + "characters/show/" + character.id.to_s %></br>
+                        <% end %>
+                    </td>
+                </tr>    
+            </tbody>
+        </table>
+    </div>
+</div>
+<%= link_to "Home page", root_path %>

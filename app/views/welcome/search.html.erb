@@ -1,0 +1,41 @@
+<h1>Search for: "<%= @input%>"</h1>
+<div class = "container">
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+            <th>Episodes</th>
+            <th>Characters</th>
+            <th>Locations</th>
+            <th colspan="3"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <% if @episodes_results.is_a?(Hash) 
+                    puts %><td><%= link_to @episodes_results.name, root_path + "episodes/show/" + @episodes_results.id.to_s %></td>
+                <% else 
+                    puts %><td><% @episodes_results.each do |episode| %>
+                        <%= link_to episode.name, root_path + "episodes/show/" + episode.id.to_s %></br>
+                    <% end %></td>
+                <% end %>
+                <% if @characters_results.is_a?(Hash) 
+                    puts %><td><%= link_to @characters_results.name, root_path + "characters/show/" + @characters_results.id.to_s %></td>
+                <% else 
+                    puts %><td><% @characters_results.each do |character| %>
+                        <%= link_to character.name, root_path + "characters/show/" + character.id.to_s %></br>
+                    <% end %></td>
+                <% end %>
+                <% if @locations_results.is_a?(Hash) 
+                    puts %><td><%= link_to @locations_results.name, root_path + "locations/show/" + @locations_results.id.to_s %></td>
+                <% else 
+                    puts %><td><% @locations_results.each do |location| %>
+                        <%= link_to location.name, root_path + "locations/show/" + location.id.to_s %></br>
+                    <% end %></td>
+                <% end %>
+            </tr>    
+        </tbody>
+    </table>
+</div>
+</div>
+<%= link_to "Home page", root_path %>

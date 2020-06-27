@@ -1,0 +1,65 @@
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+</style>
+</head>
+
+<h1><%= @character.name %></h1>
+<img src=<%= @character.image%>>
+<div class = "container">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Species</th>
+                <th>Type</th>
+                <th>Gender</th>
+                <th>Origin</th>
+                <th>Location</th>
+                <th>Episodes</th>
+                <th colspan="5"></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><%= @character.name %></td>
+                    <td><%= @character.status %></td>
+                    <td><%= @character.species %></td>
+                    <td><%= @character.type %></td>
+                    <td><%= @character.gender %></td>
+                    <% if @character.origin.name != "unknown" %>
+                        <td><%= link_to @character.origin.name, root_path + "locations/show/" + @character.origin.id%></td>
+                    <% else %>
+                        <td>unknown</td>
+                    <% end %>
+                    <% if @character.location.name != "unknown" %>
+                        <td><%= link_to @character.location.name, root_path + "locations/show/" + @character.location.id%></td>
+                    <% else %>
+                        <td>unknown</td>
+                    <% end %>
+                    <% if @episodes.is_a?(Hash) 
+                        puts %><td><%= link_to @episodes.name, root_path + "episodes/show/" + @episodes.id%></td>
+                    <% else 
+                        puts %><td><% @episodes.each do |episode| %>
+                            <%= link_to episode.name, root_path + "episodes/show/" + episode.id%></br>
+                        <% end %></td>
+                    <% end %>
+                </tr>    
+            </tbody>
+        </table>
+    </div>
+</div>
+<%= link_to "Home page", root_path %>

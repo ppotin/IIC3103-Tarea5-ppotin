@@ -1,0 +1,49 @@
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+</style>
+</head>
+
+<h1>WELCOME TO THE RICK AND MORTY APP!</h1>
+<div class = "container">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Air date</th>
+                <th>Code</th>
+                <th colspan="3"></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <% @episodes.each do |episode| %>
+                    <tr>
+                    <td><%= link_to episode.name, "episodes/show/" + episode.id.to_s %></td>
+                    <td><%= episode.air_date %></td>
+                    <td><%= episode.episode %></td>
+                    </tr>
+                <% end %>
+                <% @episodes2.each do |episode2| %>
+                    <tr>
+                    <td><%= link_to episode2.name, "episodes/show/" + episode2.id.to_s %></td>
+                    <td><%= episode2.air_date %></td>
+                    <td><%= episode2.episode %></td>
+                    </tr>
+                <% end %>
+            </tbody>
+        </table>
+    </div>
+</div>
+</br>

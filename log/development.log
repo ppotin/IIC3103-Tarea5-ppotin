@@ -1,0 +1,1726 @@
+Started GET "/" for ::1 at 2020-03-29 14:41:00 -0300
+  
+LoadError (cannot load such file -- http):
+  
+app/controllers/welcome_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2020-03-29 14:41:03 -0300
+  
+LoadError (cannot load such file -- http):
+  
+app/controllers/welcome_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2020-03-29 14:41:37 -0300
+  
+LoadError (cannot load such file -- http):
+  
+app/controllers/welcome_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2020-03-29 14:43:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 944)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/philippepotin/Documents/Universidad/2020-01/Taller integración/Tareas/rickmortyapp/public/packs
+[Webpacker] Hash: 6249d34a60b5b41e803f
+Version: webpack 4.42.1
+Time: 2016ms
+Built at: 03/29/2020 2:43:54 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e432d36ab9763137ce3c.js   89.1 KiB  application  [emitted] [immutable]  application
+js/application-e432d36ab9763137ce3c.js.map   97.9 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e432d36ab9763137ce3c.js js/application-e432d36ab9763137ce3c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 707 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 2 hidden modules
+
+Completed 200 OK in 10406ms (Views: 6145.7ms | Allocations: 38780)
+
+
+Started GET "/episodes/show/16" for ::1 at 2020-03-29 14:44:00 -0300
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"16"}
+  Rendering episodes/show.html.erb within layouts/application
+  Rendered episodes/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1017)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2280ms (Views: 11.5ms | Allocations: 10156)
+
+
+Started GET "/characters/show/272" for ::1 at 2020-03-29 14:44:06 -0300
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"272"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 2.6ms | Allocations: 676)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2535ms (Views: 9.3ms | Allocations: 8384)
+
+
+Started GET "/locations/show/20" for ::1 at 2020-03-29 14:44:12 -0300
+Processing by LocationsController#show as HTML
+  Parameters: {"id"=>"20"}
+  Rendering locations/show.html.erb within layouts/application
+  Rendered locations/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 481)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2978ms (Views: 10.1ms | Allocations: 13310)
+
+
+Started GET "/" for ::1 at 2020-03-29 14:44:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 511)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4295ms (Views: 7.9ms | Allocations: 10010)
+
+
+Started GET "/search?search=r" for ::1 at 2020-03-29 14:44:29 -0300
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"r"}
+  Rendering welcome/search.html.erb within layouts/application
+  Rendered welcome/search.html.erb within layouts/application (Duration: 11.4ms | Allocations: 9813)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30404ms (Views: 27.6ms | Allocations: 69111)
+
+
+Started GET "/characters/show/44" for ::1 at 2020-03-29 14:45:46 -0300
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"44"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2489ms (Views: 23.2ms | Allocations: 7223)
+
+
+Started GET "/" for ::1 at 2020-03-29 14:45:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 510)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4345ms (Views: 10.4ms | Allocations: 9997)
+
+
+Started GET "/" for ::1 at 2020-03-29 14:47:24 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 944)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4157ms (Views: 155.3ms | Allocations: 35216)
+
+
+Started GET "/episodes/show/6" for ::1 at 2020-03-29 14:47:31 -0300
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"6"}
+  Rendering episodes/show.html.erb within layouts/application
+  Rendered episodes/show.html.erb within layouts/application (Duration: 5.3ms | Allocations: 861)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3272ms (Views: 19.8ms | Allocations: 9670)
+
+
+Started GET "/" for ::1 at 2020-06-26 12:35:55 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 2561)
+Completed 500 Internal Server Error in 3749ms (Allocations: 8563)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    28:             </thead>
+    29: 
+    30:             <tbody>
+    31:                 <% @episodes["results"].each do |episode| %>
+    32:                     <tr>
+    33:                     <td><%= link_to episode["name"], "episodes/show/" + episode["id"].to_s %></td>
+    34:                     <td><%= episode["air_date"] %></td>
+  
+app/views/welcome/index.html.erb:31
+Started GET "/" for ::1 at 2020-06-26 12:47:20 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 1955)
+Completed 500 Internal Server Error in 2425ms (Allocations: 7980)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    28:             </thead>
+    29: 
+    30:             <tbody>
+    31:                 <% @episodes["results"].each do |episode| %>
+    32:                     <tr>
+    33:                     <td><%= link_to episode["name"], "episodes/show/" + episode["id"].to_s %></td>
+    34:                     <td><%= episode["air_date"] %></td>
+  
+app/views/welcome/index.html.erb:31
+Started GET "/" for ::1 at 2020-06-26 12:47:55 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1959)
+Completed 500 Internal Server Error in 3323ms (Allocations: 8040)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    28:             </thead>
+    29: 
+    30:             <tbody>
+    31:                 <% @episodes["results"].each do |episode| %>
+    32:                     <tr>
+    33:                     <td><%= link_to episode["name"], "episodes/show/" + episode["id"].to_s %></td>
+    34:                     <td><%= episode["air_date"] %></td>
+  
+app/views/welcome/index.html.erb:31
+Started GET "/" for ::1 at 2020-06-26 12:58:56 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1955)
+Completed 500 Internal Server Error in 3412ms (Allocations: 7093)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    28:             </thead>
+    29: 
+    30:             <tbody>
+    31:                 <% @episodes["results"].each do |episode| %>
+    32:                     <tr>
+    33:                     <td><%= link_to episode["name"], "episodes/show/" + episode["id"].to_s %></td>
+    34:                     <td><%= episode["air_date"] %></td>
+  
+app/views/welcome/index.html.erb:31
+Started GET "/" for ::1 at 2020-06-26 12:59:00 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1223)
+Completed 500 Internal Server Error in 3031ms (Allocations: 15243)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    28:             </thead>
+    29: 
+    30:             <tbody>
+    31:                 <% @episodes["results"].each do |episode| %>
+    32:                     <tr>
+    33:                     <td><%= link_to episode["name"], "episodes/show/" + episode["id"].to_s %></td>
+    34:                     <td><%= episode["air_date"] %></td>
+  
+app/views/welcome/index.html.erb:31
+Started GET "/" for ::1 at 2020-06-26 15:14:45 -0400
+  
+LoadError (cannot load such file -- /Users/philippepotin/Documents/Universidad/2020-01/Taller integración/Tareas/Tarea_5/rickmortygraphql_heroku/app/helpers/elcome_helper.rb):
+  
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/welcome_controller.rb:4:in `<main>'
+Started GET "/" for ::1 at 2020-06-26 15:15:42 -0400
+  
+LoadError (cannot load such file -- /Users/philippepotin/Documents/Universidad/2020-01/Taller integración/Tareas/Tarea_5/rickmortygraphql_heroku/app/helpers/elcome_helper.rb):
+  
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/welcome_controller.rb:4:in `<main>'
+Started GET "/" for ::1 at 2020-06-26 15:16:27 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 18.9ms | Allocations: 1583)
+Completed 500 Internal Server Error in 11644ms (Allocations: 6745)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    28:             </thead>
+    29: 
+    30:             <tbody>
+    31:                 <% @episodes["results"].each do |episode| %>
+    32:                     <tr>
+    33:                     <td><%= link_to episode["name"], "episodes/show/" + episode["id"].to_s %></td>
+    34:                     <td><%= episode["air_date"] %></td>
+  
+app/views/welcome/index.html.erb:31:in `[]'
+app/views/welcome/index.html.erb:31
+Started GET "/" for ::1 at 2020-06-26 15:19:35 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 1583)
+Completed 500 Internal Server Error in 3406ms (Allocations: 7603)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    28:             </thead>
+    29: 
+    30:             <tbody>
+    31:                 # <% @episodes["results"].each do |episode| %>
+    32:                 #     <tr>
+    33:                 #     <td><%= link_to episode["name"], "episodes/show/" + episode["id"].to_s %></td>
+    34:                 #     <td><%= episode["air_date"] %></td>
+  
+app/views/welcome/index.html.erb:31:in `[]'
+app/views/welcome/index.html.erb:31
+Started GET "/" for ::1 at 2020-06-26 15:20:30 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2975ms (Views: 180.3ms | Allocations: 32318)
+
+
+Started GET "/" for ::1 at 2020-06-26 15:24:12 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 189.8ms | Allocations: 97693)
+Completed 500 Internal Server Error in 3638ms (Allocations: 103803)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `episodes' for #<#<Class:0x00007ffe852d12f8>:0x00007ffe852da560>
+Did you mean?  @episodes
+               @episodes2):
+    17: <h1>WELCOME TO THE RICK AND MORTY APP!</h1>
+    18: <div class = "container">
+    19:     <div class="table-responsive">
+    20:         <p><%= episodes%></p>
+    21:     </div>
+    22: </div>
+    23: </br>
+  
+app/views/welcome/index.html.erb:20
+Started GET "/" for ::1 at 2020-06-26 15:24:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 207.9ms | Allocations: 97673)
+Completed 500 Internal Server Error in 2851ms (Allocations: 103834)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `episodes2' for #<#<Class:0x00007fdc2cae2648>:0x00007fdc2cb0e9f0>
+Did you mean?  @episodes2
+               @episodes):
+    17: <h1>WELCOME TO THE RICK AND MORTY APP!</h1>
+    18: <div class = "container">
+    19:     <div class="table-responsive">
+    20:         <p><%= episodes2 %></p>
+    21:     </div>
+    22: </div>
+    23: </br>
+  
+app/views/welcome/index.html.erb:20
+Started GET "/" for ::1 at 2020-06-26 15:25:57 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 208.9ms | Allocations: 97681)
+Completed 500 Internal Server Error in 2192ms (Allocations: 103655)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `episodes' for #<#<Class:0x00007f8074702ed8>:0x00007f8074700048>
+Did you mean?  @episodes
+               @episodes2):
+    17: <h1>WELCOME TO THE RICK AND MORTY APP!</h1>
+    18: <div class = "container">
+    19:     <div class="table-responsive">
+    20:         <p><%= episodes %></p>
+    21:     </div>
+    22: </div>
+    23: </br>
+  
+app/views/welcome/index.html.erb:20
+Started GET "/" for ::1 at 2020-06-26 15:26:50 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 218.5ms | Allocations: 97697)
+Completed 500 Internal Server Error in 2096ms (Allocations: 103707)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `episodes' for #<#<Class:0x00007fc9a1368270>:0x00007fc9a1389ce0>
+Did you mean?  @episodes
+               @episodes2):
+    17: <h1>WELCOME TO THE RICK AND MORTY APP!</h1>
+    18: <div class = "container">
+    19:     <div class="table-responsive">
+    20:         <p><%= episodes %></p>
+    21:     </div>
+    22: </div>
+    23: </br>
+  
+app/views/welcome/index.html.erb:20
+Started GET "/" for ::1 at 2020-06-26 15:30:39 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 372)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 75ms (Views: 62.9ms | Allocations: 10466)
+
+
+Started GET "/" for ::1 at 2020-06-26 18:20:38 -0400
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 13ms (Allocations: 2192)
+
+
+  
+NameError (uninitialized constant WelcomeController::Graphlient):
+  
+app/controllers/welcome_controller.rb:10:in `index'
+Started GET "/" for ::1 at 2020-06-26 18:22:55 -0400
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 93ms (Allocations: 4688)
+
+
+  
+Graphlient::Errors::ConnectionFailedError (Failed to open TCP connection to test-graphql.biz:443 (getaddrinfo: nodename nor servname provided, or not known)):
+  
+app/controllers/welcome_controller.rb:12:in `index'
+Started GET "/" for ::1 at 2020-06-26 18:23:52 -0400
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 1254ms (Allocations: 23199)
+
+
+  
+Graphlient::Errors::ClientError (Field 'invoice' doesn't exist on type 'Query'):
+  
+app/controllers/welcome_controller.rb:12:in `index'
+Started GET "/" for ::1 at 2020-06-26 18:24:46 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 290)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1972ms (Views: 45.0ms | Allocations: 32753)
+
+
+Started GET "/" for ::1 at 2020-06-26 18:25:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1811)
+Completed 500 Internal Server Error in 1580ms (Allocations: 27247)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<GraphQL::Client::Response:0x00007fe46dff1190>):
+    17: <h1>WELCOME TO THE RICK AND MORTY APP!</h1>
+    18: <div class = "container">
+    19:     <div class="table-responsive">
+    20:         <% @episodes.each do |wea| %>
+    21:             <p><%= wea %></p>
+    22:         <% end%>
+    23:     </div>
+  
+app/views/welcome/index.html.erb:20
+Started GET "/" for ::1 at 2020-06-26 18:25:49 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 289)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2446ms (Views: 39.2ms | Allocations: 33568)
+
+
+Started GET "/" for ::1 at 2020-06-26 18:26:21 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 289)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2555ms (Views: 45.2ms | Allocations: 33379)
+
+
+Started GET "/" for ::1 at 2020-06-26 18:26:29 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 6)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1590ms (Views: 14.4ms | Allocations: 25267)
+
+
+Started GET "/" for ::1 at 2020-06-26 18:27:00 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 289)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2072ms (Views: 31.7ms | Allocations: 33524)
+
+
+Started GET "/" for ::1 at 2020-06-26 18:28:19 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 289)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2340ms (Views: 41.2ms | Allocations: 33977)
+
+
+Started GET "/" for ::1 at 2020-06-26 18:29:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 289)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2550ms (Views: 39.8ms | Allocations: 33949)
+
+
+Started GET "/" for ::1 at 2020-06-26 18:29:47 -0400
+Processing by WelcomeController#index as HTML
+Started GET "/" for ::1 at 2020-06-26 18:29:49 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 289)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2676ms (Views: 46.4ms | Allocations: 35240)
+
+
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 6)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2052ms (Views: 13.2ms | Allocations: 35818)
+
+
+Started GET "/" for ::1 at 2020-06-26 18:30:24 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 289)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2338ms (Views: 50.8ms | Allocations: 43024)
+
+
+Started GET "/" for ::1 at 2020-06-26 18:31:19 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 389)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1752ms (Views: 51.5ms | Allocations: 43145)
+
+
+Started GET "/" for ::1 at 2020-06-26 18:37:13 -0400
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 1428ms (Allocations: 23683)
+
+
+  
+Graphlient::Errors::ClientError (Field 'url' doesn't exist on type 'Episode'):
+  
+app/controllers/welcome_controller.rb:12:in `index'
+Started GET "/" for ::1 at 2020-06-26 18:37:42 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 2218)
+Completed 500 Internal Server Error in 3679ms (Allocations: 29901)
+
+
+  
+ActionView::Template::Error (undefined field `[]' on Episodes type. https://git.io/v1y3m):
+    28:             </thead>
+    29: 
+    30:             <tbody>
+    31:                 <% @episodes["results"].each do |episode| %>
+    32:                     <tr>
+    33:                     <td><%= link_to episode["name"], "episodes/show/" + episode["id"].to_s %></td>
+    34:                     <td><%= episode["air_date"] %></td>
+  
+app/views/welcome/index.html.erb:31
+Started GET "/" for ::1 at 2020-06-26 18:38:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1523)
+Completed 500 Internal Server Error in 3978ms (Allocations: 29314)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    28:             </thead>
+    29: 
+    30:             <tbody>
+    31:                 <% @episodes["results"].each do |episode| %>
+    32:                     <tr>
+    33:                     <td><%= link_to episode["name"], "episodes/show/" + episode["id"].to_s %></td>
+    34:                     <td><%= episode["air_date"] %></td>
+  
+app/views/welcome/index.html.erb:31:in `[]'
+app/views/welcome/index.html.erb:31
+Started GET "/" for ::1 at 2020-06-26 18:39:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 30.9ms | Allocations: 1524)
+Completed 500 Internal Server Error in 3868ms (Allocations: 37871)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    28:             </thead>
+    29: 
+    30:             <tbody>
+    31:                 <% @episodes["results"].each do |episode| %>
+    32:                     <tr>
+    33:                     <td><%= link_to episode["name"], "episodes/show/" + episode["id"].to_s %></td>
+    34:                     <td><%= episode["air_date"] %></td>
+  
+app/views/welcome/index.html.erb:31:in `[]'
+app/views/welcome/index.html.erb:31
+Started GET "/" for ::1 at 2020-06-26 18:42:06 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 2140)
+Completed 500 Internal Server Error in 2728ms (Allocations: 38678)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    35:                     <td><%= episode.episode %></td>
+    36:                     </tr>
+    37:                 <% end %>
+    38:                 <% @episodes2["results"].each do |episode2| %>
+    39:                     <tr>
+    40:                     <td><%= link_to episode2.name, "episodes/show/" + episode2.id.to_s %></td>
+    41:                     <td><%= episode2.air_date %></td>
+  
+app/views/welcome/index.html.erb:38:in `[]'
+app/views/welcome/index.html.erb:38
+Started GET "/" for ::1 at 2020-06-26 18:43:14 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3657ms (Views: 35.4ms | Allocations: 49446)
+
+
+Started GET "/episodes/show/30" for ::1 at 2020-06-26 18:43:26 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"30"}
+Completed 500 Internal Server Error in 17226ms (Allocations: 2525)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/episodes_controller.rb:6:in `show'
+Started GET "/" for ::1 at 2020-06-26 18:44:39 -0400
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 182ms (Allocations: 64890)
+
+
+  
+NameError (undefined local variable or method `client' for #<WelcomeController:0x00007f96116e03a8>):
+  
+app/controllers/welcome_controller.rb:9:in `index'
+Started GET "/" for ::1 at 2020-06-26 18:44:58 -0400
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 149ms (Allocations: 64882)
+
+
+  
+NameError (undefined local variable or method `client' for #<WelcomeController:0x00007fa1b4ff90a8>):
+  
+app/controllers/welcome_controller.rb:9:in `index'
+Started GET "/" for ::1 at 2020-06-26 18:45:15 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3874ms (Views: 50.7ms | Allocations: 49426)
+
+
+Started GET "/" for ::1 at 2020-06-26 18:46:02 -0400
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 940ms (Allocations: 9936)
+
+
+  
+GraphQL::ParseError (Parse error on "2" (INT) at [2, 20]):
+  
+app/controllers/welcome_controller.rb:9:in `index'
+Started GET "/" for ::1 at 2020-06-26 18:49:29 -0400
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 1159ms (Allocations: 23335)
+
+
+  
+Graphlient::Errors::ClientError (There can be only one argument named "page"):
+  
+app/controllers/welcome_controller.rb:9:in `index'
+Started GET "/" for ::1 at 2020-06-26 19:09:51 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 22.8ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3895ms (Views: 56.4ms | Allocations: 49081)
+
+
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:10:10 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 1ms (Allocations: 810)
+
+
+  
+GraphQL::ParseError (Parse error on "}" (RCURLY) at [2, 38]):
+  
+app/controllers/welcome_controller.rb:52:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:14:45 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 1603ms (Allocations: 23468)
+
+
+  
+Graphlient::Errors::ClientError (Variable $input is used by __anonymous__ but not declared):
+  
+app/controllers/welcome_controller.rb:52:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:15:19 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 1098ms (Allocations: 9907)
+
+
+  
+GraphQL::ParseError (Parse error on "@" (DIR_SIGN) at [2, 36]):
+  
+app/controllers/welcome_controller.rb:52:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:18:15 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 1093ms (Allocations: 23218)
+
+
+  
+Graphlient::Errors::ClientError (Variable $input is used by __anonymous__ but not declared):
+  
+app/controllers/welcome_controller.rb:52:in `search'
+Started GET "/" for ::1 at 2020-06-26 19:22:27 -0400
+  
+SyntaxError (/Users/philippepotin/Documents/Universidad/2020-01/Taller integración/Tareas/rickmortygraphql_heroku/app/controllers/welcome_controller.rb:52: syntax error, unexpected ':', expecting ')'
+...pisodes = $client.query($input: @input) do
+...                              ^
+/Users/philippepotin/Documents/Universidad/2020-01/Taller integración/Tareas/rickmortygraphql_heroku/app/controllers/welcome_controller.rb:68: syntax error, unexpected ':', expecting ')'
+...isodes2 = $client.query($input: @input) do
+...                              ^
+/Users/philippepotin/Documents/Universidad/2020-01/Taller integración/Tareas/rickmortygraphql_heroku/app/controllers/welcome_controller.rb:94: syntax error, unexpected ':', expecting ')'
+...racters = $client.query($input: @input) do
+...                              ^
+/Users/philippepotin/Documents/Universidad/2020-01/Taller integración/Tareas/rickmortygraphql_heroku/app/controllers/welcome_controller.rb:109: syntax error, unexpected end, expecting end-of-input
+    end
+    ^~~):
+  
+app/controllers/welcome_controller.rb:52: syntax error, unexpected ':', expecting ')'
+app/controllers/welcome_controller.rb:68: syntax error, unexpected ':', expecting ')'
+app/controllers/welcome_controller.rb:94: syntax error, unexpected ':', expecting ')'
+app/controllers/welcome_controller.rb:109: syntax error, unexpected end, expecting end-of-input
+app/controllers/welcome_controller.rb:52: syntax error, unexpected ':', expecting ')'
+app/controllers/welcome_controller.rb:68: syntax error, unexpected ':', expecting ')'
+app/controllers/welcome_controller.rb:94: syntax error, unexpected ':', expecting ')'
+app/controllers/welcome_controller.rb:109: syntax error, unexpected end, expecting end-of-input
+app/controllers/welcome_controller.rb:52: syntax error, unexpected ':', expecting ')'
+app/controllers/welcome_controller.rb:68: syntax error, unexpected ':', expecting ')'
+app/controllers/welcome_controller.rb:94: syntax error, unexpected ':', expecting ')'
+app/controllers/welcome_controller.rb:109: syntax error, unexpected end, expecting end-of-input
+Started GET "/" for ::1 at 2020-06-26 19:24:15 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3714ms (Views: 50.0ms | Allocations: 40176)
+
+
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:24:26 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 5ms (Allocations: 2364)
+
+
+  
+Graphlient::Errors::ClientError (Field 'input' doesn't exist on type 'Query'):
+  
+app/controllers/welcome_controller.rb:52:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:34:25 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 1271ms (Allocations: 23628)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $input and argument name ([Int] / String)):
+  
+app/controllers/welcome_controller.rb:52:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:34:59 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 1305ms (Allocations: 23710)
+
+
+  
+Graphlient::Errors::ClientError (List dimension mismatch on variable $input and argument name ([String] / String)):
+  
+app/controllers/welcome_controller.rb:52:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:35:39 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 1941ms (Allocations: 24661)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:52:in `search'
+Started GET "/" for ::1 at 2020-06-26 19:36:39 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1454)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2704ms (Views: 58.3ms | Allocations: 17894)
+
+
+Started GET "/search?search=" for ::1 at 2020-06-26 19:36:44 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>""}
+Completed 500 Internal Server Error in 840ms (Allocations: 3055)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:52:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:40:22 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 2052ms (Allocations: 27948)
+
+
+  
+Graphlient::Errors::ClientError (Field 'input' doesn't exist on type 'Query'):
+  
+app/controllers/welcome_controller.rb:68:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:40:27 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 1117ms (Allocations: 6455)
+
+
+  
+Graphlient::Errors::ClientError (Field 'input' doesn't exist on type 'Query'):
+  
+app/controllers/welcome_controller.rb:68:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:41:16 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 3000ms (Allocations: 28711)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:68:in `search'
+Started GET "/" for ::1 at 2020-06-26 19:43:27 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4750ms (Views: 61.2ms | Allocations: 40168)
+
+
+Started GET "/search?search=ric" for ::1 at 2020-06-26 19:43:40 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"ric"}
+Completed 500 Internal Server Error in 1762ms (Allocations: 7104)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:68:in `search'
+Started GET "/search?search=ric" for ::1 at 2020-06-26 19:44:34 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"ric"}
+Completed 500 Internal Server Error in 6009ms (Allocations: 39282)
+
+
+  
+Graphlient::Errors::ExecutionError (characters: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:94:in `block in search'
+app/controllers/welcome_controller.rb:92:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:45:50 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 8334ms (Allocations: 40005)
+
+
+  
+Graphlient::Errors::ExecutionError (characters: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:98:in `block in search'
+app/controllers/welcome_controller.rb:96:in `search'
+Started GET "/search?search=ric" for ::1 at 2020-06-26 19:46:30 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"ric"}
+Completed 500 Internal Server Error in 5931ms (Allocations: 18555)
+
+
+  
+Graphlient::Errors::ExecutionError (characters: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:98:in `block in search'
+app/controllers/welcome_controller.rb:96:in `search'
+Started GET "/search?search=ric" for ::1 at 2020-06-26 19:48:20 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"ric"}
+Completed 500 Internal Server Error in 7063ms (Allocations: 39347)
+
+
+  
+Graphlient::Errors::ExecutionError (characters: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:98:in `block in search'
+app/controllers/welcome_controller.rb:96:in `search'
+Started GET "/search?search=ric" for ::1 at 2020-06-26 19:49:54 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"ric"}
+Completed 500 Internal Server Error in 3360ms (Allocations: 28838)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:72:in `search'
+Started GET "/" for ::1 at 2020-06-26 19:51:56 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1450)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3142ms (Views: 49.6ms | Allocations: 17898)
+
+
+Started GET "/search?search=" for ::1 at 2020-06-26 19:52:04 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>""}
+  Rendering welcome/search.html.erb within layouts/application
+  Rendered welcome/search.html.erb within layouts/application (Duration: 49.5ms | Allocations: 16066)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20083ms (Views: 64.7ms | Allocations: 85540)
+
+
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:53:20 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 1962ms (Allocations: 7160)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:72:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:53:33 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 1705ms (Allocations: 7134)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:72:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:53:54 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 112ms (Allocations: 64989)
+
+
+  
+NameError (undefined local variable or method `input' for #<WelcomeController:0x00007fc77ecf25b8>):
+  
+app/controllers/welcome_controller.rb:52:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:55:26 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 2941ms (Allocations: 28841)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:75:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 19:57:15 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 2921ms (Allocations: 28748)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:75:in `search'
+Started GET "/" for ::1 at 2020-06-26 20:02:11 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3865ms (Views: 66.2ms | Allocations: 39306)
+
+
+Started GET "/search?search=" for ::1 at 2020-06-26 20:02:18 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>""}
+Completed 500 Internal Server Error in 1980ms (Allocations: 7468)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:78:in `search'
+Started GET "/search?search=" for ::1 at 2020-06-26 20:02:54 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>""}
+  Rendering welcome/search.html.erb within layouts/application
+  Rendered welcome/search.html.erb within layouts/application (Duration: 37.6ms | Allocations: 16195)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20720ms (Views: 82.8ms | Allocations: 111980)
+
+
+Started GET "/search?search=rick" for ::1 at 2020-06-26 20:03:24 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 1975ms (Allocations: 7165)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:78:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 20:04:49 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 2277ms (Allocations: 26439)
+
+
+  
+NoMethodError (undefined method `key?' for []:Array):
+  
+app/controllers/welcome_controller.rb:80:in `block (2 levels) in search'
+app/controllers/welcome_controller.rb:79:in `block in search'
+app/controllers/welcome_controller.rb:78:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 20:05:22 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 7015ms (Allocations: 43869)
+
+
+  
+Graphlient::Errors::ExecutionError (characters: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:104:in `block in search'
+app/controllers/welcome_controller.rb:102:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 20:08:53 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 4767ms (Allocations: 47256)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:77:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 20:09:56 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 1650ms (Allocations: 24552)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:55:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 20:10:31 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 3221ms (Allocations: 27970)
+
+
+  
+Graphlient::Errors::ExecutionError (episodes: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:75:in `search'
+Started GET "/" for ::1 at 2020-06-26 20:14:24 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5044ms (Views: 86.1ms | Allocations: 40179)
+
+
+Started GET "/search?search=rick" for ::1 at 2020-06-26 20:14:52 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 5402ms (Allocations: 21136)
+
+
+  
+Graphlient::Errors::ExecutionError (characters: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:104:in `block in search'
+app/controllers/welcome_controller.rb:102:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 20:17:04 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+Completed 500 Internal Server Error in 7559ms (Allocations: 43198)
+
+
+  
+Graphlient::Errors::ExecutionError (characters: 404: Not Found):
+  
+app/controllers/welcome_controller.rb:101:in `block in search'
+app/controllers/welcome_controller.rb:99:in `search'
+Started GET "/search?search=rick" for ::1 at 2020-06-26 20:20:25 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+  Rendering welcome/search.html.erb within layouts/application
+  Rendered welcome/search.html.erb within layouts/application (Duration: 11.7ms | Allocations: 3719)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19293ms (Views: 69.1ms | Allocations: 99992)
+
+
+Started GET "/" for ::1 at 2020-06-26 20:21:20 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1446)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4191ms (Views: 15.0ms | Allocations: 13757)
+
+
+Started GET "/" for ::1 at 2020-06-27 12:20:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3551ms (Views: 76.1ms | Allocations: 40228)
+
+
+Started GET "/search?search=" for ::1 at 2020-06-27 12:20:46 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>""}
+  Rendering welcome/search.html.erb within layouts/application
+  Rendered welcome/search.html.erb within layouts/application (Duration: 17.1ms | Allocations: 16067)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17401ms (Views: 26.7ms | Allocations: 87303)
+
+
+Started GET "/search?search=" for ::1 at 2020-06-27 12:24:24 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>""}
+  Rendering welcome/search.html.erb within layouts/application
+  Rendered welcome/search.html.erb within layouts/application (Duration: 22.8ms | Allocations: 21945)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25206ms (Views: 57.1ms | Allocations: 146976)
+
+
+Started GET "/search?search=" for ::1 at 2020-06-27 12:26:08 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>""}
+  Rendering welcome/search.html.erb within layouts/application
+  Rendered welcome/search.html.erb within layouts/application (Duration: 18.7ms | Allocations: 22367)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26633ms (Views: 51.8ms | Allocations: 148939)
+
+
+Started GET "/" for ::1 at 2020-06-27 12:26:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1441)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2564ms (Views: 13.0ms | Allocations: 13759)
+
+
+Started GET "/" for ::1 at 2020-06-27 12:41:13 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4184ms (Views: 47.1ms | Allocations: 40139)
+
+
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:41:20 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 991ms (Allocations: 20435)
+
+
+  
+Graphlient::Errors::ClientError (Field 'episodes' doesn't accept argument 'id'):
+  
+app/controllers/episodes_controller.rb:7:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:42:48 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 977ms (Allocations: 22676)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $id and argument id (String / ID)):
+  
+app/controllers/episodes_controller.rb:7:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:43:17 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 993ms (Allocations: 23483)
+
+
+  
+Graphlient::Errors::ClientError (Type mismatch on variable $id and argument id (Int / ID)):
+  
+app/controllers/episodes_controller.rb:7:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:43:43 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 778ms (Allocations: 23574)
+
+
+  
+Graphlient::Errors::ClientError (Field 'results' doesn't exist on type 'Episode'):
+  
+app/controllers/episodes_controller.rb:7:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:44:34 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1918ms (Allocations: 25030)
+
+
+  
+GraphQL::Client::UnfetchedFieldError (unfetched field `episodes' on #<Class:0x00007f80fa8a6560> type. https://git.io/v1y3U):
+  
+app/controllers/episodes_controller.rb:20:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:44:56 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 652ms (Allocations: 3498)
+
+
+  
+GraphQL::Client::UnfetchedFieldError (unfetched field `episodes' on #<Class:0x00007f80fa8a6560> type. https://git.io/v1y3U):
+  
+app/controllers/episodes_controller.rb:20:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:45:02 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 619ms (Allocations: 3460)
+
+
+  
+GraphQL::Client::UnfetchedFieldError (unfetched field `episodes' on #<Class:0x00007f80fa8a6560> type. https://git.io/v1y3U):
+  
+app/controllers/episodes_controller.rb:20:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:45:45 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1612ms (Allocations: 25112)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `results' on Episode type. https://git.io/v1y3m):
+  
+app/controllers/episodes_controller.rb:20:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:46:19 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2104ms (Allocations: 25221)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `[]' on Character type. https://git.io/v1y3m):
+  
+app/controllers/episodes_controller.rb:23:in `block in show'
+app/controllers/episodes_controller.rb:22:in `each'
+app/controllers/episodes_controller.rb:22:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:50:39 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1756ms (Allocations: 35240)
+
+
+  
+Graphlient::Errors::ClientError (Field 'characters' doesn't accept argument 'ids'):
+  
+app/controllers/episodes_controller.rb:29:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:53:08 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1697ms (Allocations: 24856)
+
+
+  
+GraphQL::Client::UnimplementedFieldError (undefined field `url' on Character type. https://git.io/v1y3m):
+  
+app/controllers/episodes_controller.rb:23:in `block in show'
+app/controllers/episodes_controller.rb:22:in `each'
+app/controllers/episodes_controller.rb:22:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:56:29 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2090ms (Allocations: 25228)
+
+
+  
+GraphQL::Client::UnfetchedFieldError (unfetched field `id' on #<Class:0x00007f9e72ee6db8> type. https://git.io/v1y3U):
+  
+app/controllers/episodes_controller.rb:23:in `block in show'
+app/controllers/episodes_controller.rb:22:in `each'
+app/controllers/episodes_controller.rb:22:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 12:57:31 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1541ms (Allocations: 25658)
+
+
+  
+NoMethodError (undefined method `results' for #<GraphQL::Client::List:0x00007fa1ee908110>):
+  
+app/controllers/episodes_controller.rb:22:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 13:07:11 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2464ms (Allocations: 25053)
+
+
+  
+GraphQL::Client::UnfetchedFieldError (unfetched field `id' on #<Class:0x00007f81f0c7f500> type. https://git.io/v1y3U):
+  
+app/controllers/episodes_controller.rb:23:in `block in show'
+app/controllers/episodes_controller.rb:22:in `each'
+app/controllers/episodes_controller.rb:22:in `show'
+Started GET "/episodes/show/2" for ::1 at 2020-06-27 13:16:50 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering episodes/show.html.erb within layouts/application
+  Rendered episodes/show.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1032)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1893ms (Views: 56.1ms | Allocations: 34421)
+
+
+Started GET "/" for ::1 at 2020-06-27 13:17:09 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1446)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3433ms (Views: 19.7ms | Allocations: 32532)
+
+
+Started GET "/episodes/show/12" for ::1 at 2020-06-27 13:17:14 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"12"}
+  Rendering episodes/show.html.erb within layouts/application
+  Rendered episodes/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 451)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 654ms (Views: 18.2ms | Allocations: 7417)
+
+
+Started GET "/" for ::1 at 2020-06-27 13:17:18 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1130)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2329ms (Views: 33.8ms | Allocations: 13291)
+
+
+Started GET "/episodes/show/8" for ::1 at 2020-06-27 13:17:21 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"8"}
+  Rendering episodes/show.html.erb within layouts/application
+  Rendered episodes/show.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1766)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 735ms (Views: 13.0ms | Allocations: 9163)
+
+
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:17:25 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+Started GET "/episodes/show/8" for ::1 at 2020-06-27 13:17:32 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"8"}
+  Rendering episodes/show.html.erb within layouts/application
+  Rendered episodes/show.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1765)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 761ms (Views: 15.2ms | Allocations: 9140)
+
+
+Completed 500 Internal Server Error in 10987ms (Allocations: 13213)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/characters_controller.rb:7:in `show'
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:24:09 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 9ms (Allocations: 1038)
+
+
+  
+NoMethodError (undefined method `query' for nil:NilClass
+Did you mean?  to_query):
+  
+app/controllers/characters_controller.rb:5:in `show'
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:24:41 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1176ms (Allocations: 24320)
+
+
+  
+Graphlient::Errors::ClientError (Field 'url' doesn't exist on type 'Location'):
+  
+app/controllers/characters_controller.rb:8:in `show'
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:25:32 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1483ms (Allocations: 24293)
+
+
+  
+Graphlient::Errors::ClientError (Field 'url' doesn't exist on type 'Location'):
+  
+app/controllers/characters_controller.rb:8:in `show'
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:26:17 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2499ms (Allocations: 25595)
+
+
+  
+GraphQL::Client::UnfetchedFieldError (unfetched field `episode' on #<Class:0x00007fb25c890e20> type. https://git.io/v1y3U):
+  
+app/controllers/characters_controller.rb:30:in `show'
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:26:56 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2480)
+Completed 500 Internal Server Error in 1565ms (Allocations: 29023)
+
+
+  
+ActionView::Template::Error (unfetched field `name' on #<Class:0x00007fd83a0d1ff0> type. https://git.io/v1y3U):
+    40:                     <td><%= @character.species %></td>
+    41:                     <td><%= @character.type %></td>
+    42:                     <td><%= @character.gender %></td>
+    43:                     <% if @character.origin.name != "unknown" %>
+    44:                         <td><%= link_to @character.origin.name, root_path + "locations/show/" + @character.origin.id%></td>
+    45:                     <% else %>
+    46:                         <td>unknown</td>
+  
+app/views/characters/show.html.erb:43
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:27:39 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 9.1ms | Allocations: 2624)
+Completed 500 Internal Server Error in 1784ms (Allocations: 29128)
+
+
+  
+ActionView::Template::Error (undefined field `[]' on Character type. https://git.io/v1y3m):
+    45:                     <% else %>
+    46:                         <td>unknown</td>
+    47:                     <% end %>
+    48:                     <% if @character["location"].name != "unknown" %>
+    49:                         <td><%= link_to @character.location.name, root_path + "locations/show/" + @character.location.id%></td>
+    50:                     <% else %>
+    51:                         <td>unknown</td>
+  
+app/views/characters/show.html.erb:48
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:28:30 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1020)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1648ms (Views: 38.0ms | Allocations: 35293)
+
+
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:31:27 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1025)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1716ms (Views: 44.5ms | Allocations: 35336)
+
+
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:32:18 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2283)
+Completed 500 Internal Server Error in 2261ms (Allocations: 28869)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    54:                         puts %><td><%= link_to @episode.name, root_path + "episodes/show/" + @episode.id%></td>
+    55:                     <% else 
+    56:                         puts %><td><% @episodes.each do |episode| %>
+    57:                             <%= link_to @episode.name, root_path + "episodes/show/" + @episode.id%></br>
+    58:                         <% end %></td>
+    59:                     <% end %>
+    60:                 </tr>    
+  
+app/views/characters/show.html.erb:57
+app/views/characters/show.html.erb:56:in `each'
+app/views/characters/show.html.erb:56
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:33:46 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1025)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1786ms (Views: 31.6ms | Allocations: 35297)
+
+
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:36:04 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 7.4ms | Allocations: 2278)
+Completed 500 Internal Server Error in 1947ms (Allocations: 28803)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    54:                         puts %><td><%= @episodes.name %></td>
+    55:                     <% else 
+    56:                         puts %><td><% @episodes.each do |episode| %>
+    57:                             <%= link_to @episode.name%></br>
+    58:                         <% end %></td>
+    59:                     <% end %>
+    60:                 </tr>    
+  
+app/views/characters/show.html.erb:57
+app/views/characters/show.html.erb:56:in `each'
+app/views/characters/show.html.erb:56
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:36:46 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3924)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1596ms (Views: 40.2ms | Allocations: 38276)
+
+
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:38:04 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1926)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1720ms (Views: 35.0ms | Allocations: 36257)
+
+
+Started GET "/episodes/show/12" for ::1 at 2020-06-27 13:38:10 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"12"}
+  Rendering episodes/show.html.erb within layouts/application
+  Rendered episodes/show.html.erb within layouts/application (Duration: 3.0ms | Allocations: 721)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1317ms (Views: 14.5ms | Allocations: 26535)
+
+
+Started GET "/characters/show/3" for ::1 at 2020-06-27 13:38:15 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1037)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1299ms (Views: 21.5ms | Allocations: 8802)
+
+
+Started GET "/episodes/show/25" for ::1 at 2020-06-27 13:38:20 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"25"}
+  Rendering episodes/show.html.erb within layouts/application
+  Rendered episodes/show.html.erb within layouts/application (Duration: 2.3ms | Allocations: 956)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1126ms (Views: 19.7ms | Allocations: 8082)
+
+
+Started GET "/characters/show/340" for ::1 at 2020-06-27 13:38:33 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"340"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 161)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 693ms (Views: 20.9ms | Allocations: 7635)
+
+
+Started GET "/" for ::1 at 2020-06-27 13:38:49 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1444)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3244ms (Views: 15.1ms | Allocations: 32465)
+
+
+Started GET "/episodes/show/8" for ::1 at 2020-06-27 13:38:54 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"8"}
+  Rendering episodes/show.html.erb within layouts/application
+  Rendered episodes/show.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1770)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 731ms (Views: 12.8ms | Allocations: 9151)
+
+
+Started GET "/characters/show/1" for ::1 at 2020-06-27 13:38:58 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 782ms (Views: 12.9ms | Allocations: 9057)
+
+
+Started GET "/locations/show/1" for ::1 at 2020-06-27 13:42:33 -0400
+Processing by LocationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering locations/show.html.erb within layouts/application
+  Rendered locations/show.html.erb within layouts/application (Duration: 3.7ms | Allocations: 670)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1748ms (Views: 45.0ms | Allocations: 34083)
+
+
+Started GET "/locations/show/1" for ::1 at 2020-06-27 13:43:38 -0400
+Processing by LocationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering locations/show.html.erb within layouts/application
+  Rendered locations/show.html.erb within layouts/application (Duration: 8.4ms | Allocations: 1349)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1457ms (Views: 52.2ms | Allocations: 34880)
+
+
+Started GET "/characters/show/38" for ::1 at 2020-06-27 13:43:43 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"38"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 917)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1453ms (Views: 13.9ms | Allocations: 27375)
+
+
+Started GET "/locations/show/1" for ::1 at 2020-06-27 13:43:55 -0400
+Processing by LocationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering locations/show.html.erb within layouts/application
+  Rendered locations/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 872)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1246ms (Views: 12.4ms | Allocations: 7968)
+
+
+Started GET "/characters/show/71" for ::1 at 2020-06-27 13:44:00 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"71"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 191)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 712ms (Views: 19.5ms | Allocations: 7660)
+
+
+Started GET "/episodes/show/22" for ::1 at 2020-06-27 13:44:04 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"22"}
+  Rendering episodes/show.html.erb within layouts/application
+  Rendered episodes/show.html.erb within layouts/application (Duration: 19.8ms | Allocations: 1615)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1511ms (Views: 29.8ms | Allocations: 27698)
+
+
+Started GET "/characters/show/295" for ::1 at 2020-06-27 13:44:08 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"295"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 226)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 706ms (Views: 13.5ms | Allocations: 7697)
+
+
+Started GET "/locations/show/3" for ::1 at 2020-06-27 13:44:11 -0400
+Processing by LocationsController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering locations/show.html.erb within layouts/application
+  Rendered locations/show.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2791)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 754ms (Views: 12.5ms | Allocations: 10504)
+
+
+Started GET "/characters/show/74" for ::1 at 2020-06-27 13:44:13 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"74"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 160)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1177ms (Views: 11.6ms | Allocations: 7606)
+
+
+Started GET "/episodes/show/28" for ::1 at 2020-06-27 13:44:17 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"28"}
+  Rendering episodes/show.html.erb within layouts/application
+  Rendered episodes/show.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2005)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 693ms (Views: 11.6ms | Allocations: 9462)
+
+
+Started GET "/search?search=beth" for ::1 at 2020-06-27 13:44:23 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"beth"}
+  Rendering welcome/search.html.erb within layouts/application
+  Rendered welcome/search.html.erb within layouts/application (Duration: 2.2ms | Allocations: 859)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22604ms (Views: 25.5ms | Allocations: 115679)
+
+
+Started GET "/characters/show/521" for ::1 at 2020-06-27 13:44:54 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"521"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 196)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 604ms (Views: 10.9ms | Allocations: 7648)
+
+
+Started GET "/episodes/show/30" for ::1 at 2020-06-27 13:44:59 -0400
+Processing by EpisodesController#show as HTML
+  Parameters: {"id"=>"30"}
+  Rendering episodes/show.html.erb within layouts/application
+  Rendered episodes/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 600)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 898ms (Views: 9.8ms | Allocations: 7591)
+
+
+Started GET "/search?search=rick" for ::1 at 2020-06-27 13:45:04 -0400
+Processing by WelcomeController#search as HTML
+  Parameters: {"search"=>"rick"}
+  Rendering welcome/search.html.erb within layouts/application
+  Rendered welcome/search.html.erb within layouts/application (Duration: 4.6ms | Allocations: 3030)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22521ms (Views: 14.6ms | Allocations: 100004)
+
+
+Started GET "/locations/show/34" for ::1 at 2020-06-27 13:45:31 -0400
+Processing by LocationsController#show as HTML
+  Parameters: {"id"=>"34"}
+  Rendering locations/show.html.erb within layouts/application
+  Rendered locations/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 211)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 630ms (Views: 10.8ms | Allocations: 7066)
+
+
+Started GET "/characters/show/232" for ::1 at 2020-06-27 13:45:35 -0400
+Processing by CharactersController#show as HTML
+  Parameters: {"id"=>"232"}
+  Rendering characters/show.html.erb within layouts/application
+  Rendered characters/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 684ms (Views: 11.5ms | Allocations: 7634)
+
+
+Started GET "/" for ::1 at 2020-06-27 13:45:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1446)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2287ms (Views: 12.9ms | Allocations: 13728)
+
+
+Started GET "/" for ::1 at 2020-06-27 13:48:25 -0400
+  
+LoadError (cannot load such file -- /Users/philippepotin/Documents/Universidad/2020-01/Taller integración/Tareas/Tarea_5/rickmortygraphql_heroku/app/helpers/elcome_helper.rb):
+  
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/welcome_controller.rb:6:in `<main>'
