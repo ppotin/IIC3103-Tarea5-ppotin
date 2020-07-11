@@ -1,7 +1,7 @@
 require "http"
 require "json"
 
-$client = Graphlient::Client.new('https://rickandmortyapi.com/graphql/')
+$client = Graphlient::Client.new('https://integracion-rick-morty-api.herokuapp.com/graphql/')
 
 class WelcomeController < ApplicationController
   def index
@@ -49,24 +49,23 @@ class WelcomeController < ApplicationController
     @characters_results = []
     @locations_results = []
 
-    res_episodes = $client.query(input: @input) do
-      query(input: :string) do
-        episodes(page: 1, filter: {name: :input}) do
-          results do
-            id
-            name
-            air_date
-            episode
-            characters
+    begin
+      res_episodes = $client.query(input: @input) do
+        query(input: :string) do
+          episodes(page: 1, filter: {name: :input}) do
+            results do
+              id
+              name
+              air_date
+              episode
+              characters
+            end
           end
         end
       end
-    end
-
-    @episodes = res_episodes.data.episodes.results
-
-    @episodes.each do |epi|
-      puts epi.name
+      @episodes = res_episodes.data.episodes.results
+    rescue Graphlient::Errors::ExecutionError => e
+      @episodes = []
     end
 
     begin

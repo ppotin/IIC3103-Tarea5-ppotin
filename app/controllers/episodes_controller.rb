@@ -1,4 +1,4 @@
-$client = Graphlient::Client.new('https://rickandmortyapi.com/graphql/')
+$client = Graphlient::Client.new('https://integracion-rick-morty-api.herokuapp.com/graphql/')
 
 class EpisodesController < ApplicationController
   def show
